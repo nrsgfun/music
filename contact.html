@@ -10,7 +10,8 @@
 <head>
 
 	<meta charset="UTF-8">
-	<title>Contact</title>
+	<meta name="description" content="Contact us at (814-555-9228 or visit us at 1122 Music Lane, Chicago, IL for more information.">
+	<title>Location | Strike a Chord.</title>
 	<link rel="stylesheet" href="css/styles.css">
 	<meta name="viewport" content="width-device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Roboto&display=swap" rel="stylesheet">
@@ -57,13 +58,60 @@
 			</iframe>
 			
 		</div>
+		
+		<div id="form">
+			<h2>Complete the form below and one of our staff members will contact you.</h2>
+			<form class="form-grid"><!--Start Form-->
+				<fieldset>
+					<legend>Customer Information</legend>
+					<label for="fName">First Name:</label>
+					<input type="text" name="fName" id="fName">
+					
+					<label for="lName">Last Name:</label>
+					<input type="text" name="lName" id="lName">
+					
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email">
+					
+					<label for="phone">Phone:</label>
+					<input type="tel" name="phone" id="phone">
+				</fieldset>
+				
+				<fieldset>
+					<legend>Musical Interest</legend>
+					<p>I am interested in:</p>
+					
+					<label for="guitar"><input type="checkbox" name="interest" id="guitar" value="Guitar Lessons">Guitar Lessons</label>
+					
+					<label for="piano"><input type="checkbox" name="interest" id="piano" value="Piano Lessons">Piano Lessons</label>
+					
+					<label for="violin"><input type="checkbox" name="interest" id="violin" value="Violin Lessons">Violin Lessons</label>
+					
+					<label for="rent"><input type="checkbox" name="interest" id="rent" value="Rental Equipment">Rental Equipment</label>
+				</fieldset>
+				
+				<input type="submit" id="submit" value="Submit" class="btn">
+				
+			</form>
+				
+				
+		</div>
 	
 	</main>
 	
 	<footer>
 	
-		<p>&copy; Copyright 2022. All Rights Reserved.</p>
-		<p><a href="mailto:lessons@strikeachord.net">lessons@strikeachord.net</a></p>
+		<div class="copyright">
+	
+			<p>&copy; Copyright 2022. All Rights Reserved.</p>
+			<p><a href="mailto:lessons@strikeachord.net">lessons@strikeachord.net</a></p>
+		
+		</div>
+		
+		<div class="social">
+				<a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.png" alt="black and white Facebook logo"></a>
+				<a href="https://www.twitter.com/" target="_blank"><img src="images/twitter-logo.png" alt="black and white Twitter logo"></a>
+		</div>
 	
 	</footer>
 	
